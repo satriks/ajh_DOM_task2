@@ -6,9 +6,13 @@ h1 {
 }
 .table_wrapper {
   justify-content: center;
-
   display: flex;
+  /* width: 600px; */
 }
+p {
+  display: inline;
+} 
+
 tr {
   text-align: center;
 }
@@ -18,4 +22,13 @@ td {
 }
 table{
   font-size: 20px;
+}
+
+.uarr ::after {
+  content: ' ↑';
+
+}
+
+.darr ::after {
+  content: ' ↓';
 }
