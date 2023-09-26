@@ -1,0 +1,21 @@
+/* body {
+  color: #43f00f;
+} */
+h1 {
+  text-align: center;
+}
+.table_wrapper {
+  justify-content: center;
+
+  display: flex;
+}
+tr {
+  text-align: center;
+}
+td {
+  border: 1px dotted darkblue;
+  width: 250px;
+}
+table{
+  font-size: 20px;
+}
