@@ -16,7 +16,6 @@ export default class TableSorter {
     if (this.metodsIndex > this.metods.length - 1) {
       this.metodsIndex = 0;
     }
-    this.diff();
   }
 
   getMetod(name) {
@@ -91,21 +90,6 @@ export default class TableSorter {
     down.innerHTML = ' &#8595';
     return down;
   }
-
-  // diff(){
-  //     // console.log(this.getMetod(this.metods[this.metodsIndex])[0]);
-  //     // console.log(this.rows[0]);
-  //     const currentRows = document.querySelectorAll('tr:not(.table_title)')
-  //     const sortRows = this.getMetod(this.metods[this.metodsIndex])[0]
-  //     for (const ind of Array.from(Array(currentRows.length).keys())){
-  //         console.log(this.rows[ind], 'row');
-  //         console.log(sortRows[ind]);
-  //         console.log(this.rows[ind] == sortRows[ind]);
-  //         if (this.rows[ind].dataset.id == sortRows[ind].dataset.id){
-  //             console.log('tada');
-  //         }
-  //     }
-  // }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
