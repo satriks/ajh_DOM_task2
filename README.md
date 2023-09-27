@@ -1,4 +1,4 @@
-# Задание 1
+# Задание 2
 
 ![CI](https://github.com/satriks/ajh_DOM_task2/actions/workflows/web.yml/badge.svg)
 
